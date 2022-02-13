@@ -3,6 +3,7 @@ Program reads file from stdin and outputs longest palindrome. Optimized to reduc
 Tests were performed against slow-pali implementation provided by instructor. 
 
 Test1:
+
       Slow-pali
       girimer.singh@ms160-3we:~/Documents/CPSC_457/Lab_1$ strace -c ./slow-pali < t4.txt
       Longest palindrome: redder
@@ -22,7 +23,7 @@ Test1:
       0.00    0.000000      0         1           1     access
       0.00    0.000000      0         1                 execve
     ------  ---------   ----------    --------  ------  ------
-    100.00    11.563387     2         5767321     64    total
+      100    11.563387     2         5767321     64    total
     
       Fast-pali
       girimer.singh@ms160-2wd:~/Documents/CPSC_457/Lab_1$ strace -c ./fast-pali < t4.txt
@@ -46,6 +47,7 @@ Test1:
       100   0.002308    13      165   64      total
       
 Test 2:
+
       Slow-pali
       girimer.singh@ms160-3we:~/Documents/CPSC_457/Lab_1$ strace -c ./slow-pali < t3.txt
       Longest palindrome: ___o.O.o___
